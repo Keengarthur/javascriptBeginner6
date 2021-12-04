@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width:100vw;
+    height:80vh;
+    background:url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10rem 0;
+    position:relative;
+}
+
+.modal{
+    width:70%;
+    margin: 0 auto;
+    background:grey;
+    text-align: center;
+    padding:2rem;
+}
+
+.modal-overlay{
+    width:70%;
+    height:100%;
+    background:rgba(190, 178, 178,0.7);
+    text-align: center;
+    padding:13rem 12rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    /* display:flex; */
+    
+
+}
+.modal-overlay h1{
+    width:100%;
+    background:white;
+    padding:2rem 1rem;
+    display:inline;
+}
+.mobile{
+    width:fit-content;
+    height:fit-content;
+    display:inline;
+ 
+ }
+ .mobile span{
+     display: block;
+     width:1rem;
+     height:3px;
+     margin:4px auto;
+     background:rgb(36, 33, 33);
+ }
+ .mobile span:first-child{
+     transform-origin: -1px 1px;
+     transform:rotate(45deg);
+ }
+ .mobile span:last-child{
+     transform-origin: 6px 5px;
+     transform:rotate(-45deg);
+ }
